@@ -6,6 +6,7 @@ import './assets/css/style.css'
 import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className='full-screen'>
       <Header></Header>
       <main>
+        <Portfolio></Portfolio>
         <About></About>
       </main>
       <Footer></Footer>

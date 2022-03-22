@@ -5,6 +5,7 @@ import './assets/css/style.css'
 // components
 import Header from './components/Header';
 import About from './components/About';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <main>
         <About></About>
       </main>
+      <Footer></Footer>
     </div>
   );
 }

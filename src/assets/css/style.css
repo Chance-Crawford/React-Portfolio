@@ -41,3 +41,17 @@ h1{
     font-size: 1.75rem;
     margin-left: .5rem;
 }
+
+.icons{
+    font-size: 3rem;
+    transition: color .5s;
+    color: blue;
+}
+
+.icons:hover{
+    color: white;
+}
+
+.icon-space{
+    margin-left: 5rem;
+}

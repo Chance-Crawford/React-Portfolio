@@ -5,6 +5,7 @@ h1{
 
 .nav-ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     font-size: 2.5rem;
 }
@@ -17,4 +18,26 @@ h1{
 
 .nav-ul li:hover{
     color: white;
+}
+
+
+.full-screen{
+    min-height: 100vh;
+}
+
+.sub-font{
+    font-size: 2.5rem;
+}
+
+.profile-contain{
+    width: 15%;
+}
+
+.profile-img{
+    border-radius: 50%;
+}
+
+.text{
+    font-size: 1.75rem;
+    margin-left: .5rem;
 }

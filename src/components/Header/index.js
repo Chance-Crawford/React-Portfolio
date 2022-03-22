@@ -4,7 +4,7 @@ function Header(){
 
     return(
         <header className="p-4 bg-danger">
-            <div className="d-flex justify-content-between align-items-center w-100 p-4">
+            <div className="d-flex justify-content-between align-items-center flex-wrap w-100 p-4">
                 <div className="">
                     <h1 className="m-0">Chance Crawford</h1>
                 </div>

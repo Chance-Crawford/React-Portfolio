@@ -7,7 +7,9 @@ function Project({ projectObj }){
     const { title, demo, repo, imgLink } = projectObj
 
     return(
-        <h2>{title}</h2>
+        <div>
+            <img src={require(imgLink).default} alt={title} />
+        </div>
     );
 }
 

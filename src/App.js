@@ -7,6 +7,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div className='full-screen'>
       <Header></Header>
       <main>
+        <Contact></Contact>
         <Portfolio></Portfolio>
         <About></About>
       </main>

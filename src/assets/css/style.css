@@ -55,3 +55,31 @@ h1{
 .icon-space{
     margin-left: 5rem;
 }
+
+.w-40{
+    width: 40%;
+}
+
+.project-img{
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: opacity .5s;
+}
+
+.project-img:hover{
+    opacity: 65%;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.project-btn{
+    background-color: lightblue;
+    transition: background-color .75s;
+}
+
+.project-btn:hover{
+    background-color: lightgreen;
+}

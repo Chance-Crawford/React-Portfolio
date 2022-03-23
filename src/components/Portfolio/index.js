@@ -10,37 +10,43 @@ function Portfolio(){
             title: "TechBlogsOverload",
             demo: "https://immense-coast-31920.herokuapp.com/",
             repo: "https://github.com/Chance-Crawford/TechBlogsOverload",
-            imgLink: "../../assets/images/techblogsoverload.jpg"
+            // each link must be required() here in the portfolio's array where
+            // the object is defined
+            imgLink: require("../../assets/images/techblogsoverload.jpg")
         },
         {
             title: "Ultimate Text Editor",
             demo: "https://chance-crawford.github.io/UltimateTextEditor/",
             repo: "https://github.com/Chance-Crawford/UltimateTextEditor",
-            imgLink: "../../assets/images/ultimatetexteditor.jpg"
+            // each link must be required() here in the portfolio's array where
+            // the object is defined
+            imgLink: require("../../assets/images/ultimatetexteditor.jpg")
         },
         {
             title: "Penguin Planner - Group Project",
             demo: "https://penguin-planner.herokuapp.com/",
             repo: "https://github.com/stuart-rickard/gp-penguin",
-            imgLink: "../../assets/images/penguin-planner.jpg"
+            // each link must be required() here in the portfolio's array where
+            // the object is defined
+            imgLink: require("../../assets/images/penguin-planner.jpg")
         },
         {
             title: "WeatherTracker",
             demo: "https://chance-crawford.github.io/WeatherTracker/",
             repo: "https://github.com/Chance-Crawford/WeatherTracker",
-            imgLink: "../../assets/images/weathertracker.jpg"
+            imgLink: require("../../assets/images/weathertracker.jpg")
         },
         {
             title: "NameGame",
             demo: "https://chance-crawford.github.io/NameGame/",
             repo: "https://github.com/Chance-Crawford/NameGame",
-            imgLink: "../../assets/images/namegame.jpg"
+            imgLink: require("../../assets/images/namegame.jpg")
         },
         {
             title: "Note Taker Express",
             demo: "https://damp-dawn-91357.herokuapp.com/",
             repo: "https://github.com/Chance-Crawford/Note-Taker-Express",
-            imgLink: "../../assets/images/notetaker.jpg"
+            imgLink: require("../../assets/images/notetaker.jpg")
         }
     ]);
 
@@ -48,7 +54,7 @@ function Portfolio(){
         <section>
             <div className="p-5">
                 <h2 className="sub-font ">Projects</h2>
-                <div className="mt-5">
+                <div className="mt-5 d-flex justify-content-between flex-wrap align-items-center">
                     {/* creating a project component from each
                     object in the array above. passing in each object as
                     props with projectObj. key is there as a unique

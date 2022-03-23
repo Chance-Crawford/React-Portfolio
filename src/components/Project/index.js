@@ -7,9 +7,18 @@ function Project({ projectObj }){
     const { title, demo, repo, imgLink } = projectObj
 
     return(
-        <div>
-            <img src={require(imgLink).default} alt={title} />
-        </div>
+        <article className="w-40">
+            <div>
+                <img className="w-100 project-img" src={imgLink} alt={title} />
+            </div>
+            <div>
+                <h2 className="text-center mt-2">{title}</h2>
+            </div>
+            <div className="btn-container mb-3">
+                <a href={demo} target="_blank"><button className="btn text project-btn m-0">Demo</button></a>
+                <a href={repo} target="_blank"><button className="btn text project-btn">Code</button></a>
+            </div>
+        </article>
     );
 }
 

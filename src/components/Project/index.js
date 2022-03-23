@@ -7,7 +7,7 @@ function Project({ projectObj }){
     const { title, demo, repo, imgLink } = projectObj
 
     return(
-        <article className="w-40">
+        <article className="w-40 project-contain">
             <div>
                 <img className="w-100 project-img" src={imgLink} alt={title} />
             </div>

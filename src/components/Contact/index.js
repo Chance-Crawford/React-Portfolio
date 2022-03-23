@@ -57,23 +57,23 @@ function Contact(){
     }
 
     return(
-        <section className="p-5 w-100">
+        <section className="p-5 w-100 fill-section">
             <div>
-                <h2 className="sub-font">Contact Me</h2>
-                <form id="contact" className="w-25" onSubmit={handleSubmit}>
+                <h2 className="sub-font about-header">Contact Me</h2>
+                <form id="contact" className="w-25 form-contact" onSubmit={handleSubmit}>
                     <div className=" d-flex flex-wrap w-100">
                         <div className="w-100">
-                            <label htmlFor="name" className="w-100 text m-0">Name:</label>
+                            <label htmlFor="name" className="w-100 text m-0 contact-label">Name:</label>
                             {/* onBlur triggers whenever user clicks off of input field and
                             it loses focus */}
-                            <input defaultValue={name} onBlur={handleChange} type="text" name="name" className="w-75 p-2"/>
+                            <input defaultValue={name} onBlur={handleChange} type="text" name="name" className="w-75 p-2 contact-input"/>
                         </div>
                         <div className="w-100">
-                            <label htmlFor="email" className="w-100 text m-0 mt-2">Email:</label>
-                            <input type="email" defaultValue={email} onBlur={handleChange} name="email" className="w-75 p-2"/>
+                            <label htmlFor="email" className="w-100 text m-0 mt-2 contact-label">Email:</label>
+                            <input type="email" defaultValue={email} onBlur={handleChange} name="email" className="w-75 p-2 contact-input"/>
                         </div>
                         <div className="w-100">
-                            <label htmlFor="message" className="w-100 text m-0 mt-2">Message:</label>
+                            <label htmlFor="message" className="w-100 text m-0 mt-2 contact-label">Message:</label>
                             <textarea type="text" defaultValue={message} onBlur={handleChange} rows="5" name="message" className="w-100 p-2"/>
                         </div>
                         {/* if error state is truthy, show error message */}
@@ -82,8 +82,8 @@ function Contact(){
                                 <p className="text m-0 w-100">{error}</p>
                             </div>
                         )}
-                        <div className=''>
-                            <button type="submit" className="btn text project-btn m-0 mt-3">Submit</button>
+                        <div className='contact-btn'>
+                            <button type="submit" className="btn text project-btn m-0 mt-3 contact-btn">Submit</button>
                         </div>
                         
                     </div>

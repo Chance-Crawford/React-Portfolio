@@ -2,7 +2,7 @@ import {React, useState} from "react";
 import Project from "../Project";
 
 // holds all the projects
-function Portfolio(){
+function Portfolio({ currentTab }){
 
     // each project's info
     const [projects] = useState([
@@ -51,9 +51,9 @@ function Portfolio(){
     ]);
 
     return(
-        <section>
+        <section className="fill-section">
             <div className="p-5">
-                <h2 className="sub-font ">Projects</h2>
+                <h2 className="sub-font project-header">Projects</h2>
                 <div className="mt-5 d-flex justify-content-between flex-wrap align-items-center">
                     {/* creating a project component from each
                     object in the array above. passing in each object as

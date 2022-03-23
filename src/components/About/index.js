@@ -4,9 +4,9 @@ import avatar from "../../assets/images/my_picture.jpg"
 function About(){
 
     return(
-        <article className="p-5">
+        <article className="p-5 fill-section">
             <div className="profile-contain">
-                <h2 className="sub-font text-center">About Me</h2>
+                <h2 className="sub-font text-center about-header">About Me</h2>
                 <img src={avatar} alt="profile picture" className="w-100 profile-img mt-3"/>
             </div>
             <div className="mt-3">

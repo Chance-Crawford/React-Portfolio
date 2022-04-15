@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.5ef7d21f.css",
-    "main.js": "/React-Portfolio/static/js/main.b3df1e19.js",
+    "main.js": "/React-Portfolio/static/js/main.181c6850.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/0nlypets.PNG": "/React-Portfolio/static/media/0nlypets.0a18094f12746d273dcb.PNG",
     "static/media/weathertracker.jpg": "/React-Portfolio/static/media/weathertracker.7bb930f9977a16f4a02a.jpg",
     "static/media/namegame.jpg": "/React-Portfolio/static/media/namegame.cdfd38c954a998a83f6e.jpg",
     "static/media/techblogsoverload.jpg": "/React-Portfolio/static/media/techblogsoverload.c8044a6345db5ccf6d2c.jpg",
@@ -12,11 +13,11 @@
     "static/media/notetaker.jpg": "/React-Portfolio/static/media/notetaker.95fa0f385f265bb0a95d.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.5ef7d21f.css.map": "/React-Portfolio/static/css/main.5ef7d21f.css.map",
-    "main.b3df1e19.js.map": "/React-Portfolio/static/js/main.b3df1e19.js.map",
+    "main.181c6850.js.map": "/React-Portfolio/static/js/main.181c6850.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ef7d21f.css",
-    "static/js/main.b3df1e19.js"
+    "static/js/main.181c6850.js"
   ]
 }

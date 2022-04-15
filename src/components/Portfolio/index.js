@@ -15,6 +15,14 @@ function Portfolio({ currentTab }){
             imgLink: require("../../assets/images/techblogsoverload.jpg")
         },
         {
+            title: "OnlyPets",
+            demo: "https://young-eyrie-81624.herokuapp.com/",
+            repo: "https://github.com/alex-d-marten/0nlypets",
+            // each link must be required() here in the portfolio's array where
+            // the object is defined
+            imgLink: require("../../assets/images/0nlypets.PNG")
+        },
+        {
             title: "Ultimate Text Editor",
             demo: "https://chance-crawford.github.io/UltimateTextEditor/",
             repo: "https://github.com/Chance-Crawford/UltimateTextEditor",
